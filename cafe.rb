@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require "debug"
+
 
 DRINKS = [
   { name: 'コーヒー', price: 300 },
@@ -31,7 +31,6 @@ def take_order(menus)
   order_number
 end
 
-binding.break
 puts 'bugカフェへようこそ！ご注文は？ 番号でどうぞ'
 order1 = take_order(DRINKS)
 
